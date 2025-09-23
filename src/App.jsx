@@ -1,18 +1,26 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Increments from "./components/increments";
-import Fruits from "./components/Fruits";
 import Clock from "./components/Clock";
+import Fruits from "./components/Fruits";
+import Hello from "./components/Hello";
+import Increments from "./components/increments";
+import Message from "./components/Message";
 
 function App() {
   return (
     <>
-      <Clock locale="bn-BD" />
+      <Message />
+
+      {/* <Clock locale="bn-BD" />
       <Increments />
       <hr />
       <Fruits />
+      <Hello name="Shanto" heroName="Superman">
+        <p>This is a Children Props</p>
+      </Hello>
+      <Hello name={"Pranto"} heroName={"Spiderman"}>
+        <button>Action</button>
+      </Hello>
+      <Hello name={"Asif"} heroName={"Captain America"}/> */}
     </>
   );
 }
