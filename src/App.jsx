@@ -2,14 +2,16 @@ import "./App.css";
 import Clock from "./components/Clock";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
+import HookCounter from "./components/HookCounter";
 import Increments from "./components/increments";
 import Message from "./components/Message";
 
 function App() {
   return (
     <>
-      <Message />
+      {/* <Message /> */}
 
+      <Increments />
       {/* <Clock locale="bn-BD" />
       <Increments />
       <hr />
@@ -21,6 +23,7 @@ function App() {
         <button>Action</button>
       </Hello>
       <Hello name={"Asif"} heroName={"Captain America"}/> */}
+      <HookCounter />
     </>
   );
 }
