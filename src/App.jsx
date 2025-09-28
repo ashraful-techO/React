@@ -1,35 +1,28 @@
 import "./App.css";
-import Clock from "./components/Clock";
-import Fruits from "./components/Fruits";
-import Hello from "./components/Hello";
-import HookCounter from "./components/HookCounter";
-import HookCounterFour from "./components/HookCounterFour";
-import HookCounterThree from "./components/HookCounterThree";
-import HookCounterTwo from "./components/HookCounterTwo";
-import Increments from "./components/increments";
-import Message from "./components/Message";
+import Alert from "./components/Props/Alert";
+import Array from "./components/Props/Array";
+import Button from "./components/Props/Button";
+import Card from "./components/Props/Card";
+import User from "./components/Props/User";
 
 function App() {
+  const userData = [
+    {
+      name: "Shanto",
+      email: "abc@gmail.com",
+    },
+  ];
+
+  const user = {
+    name: "jon",
+    age: 27,
+  };
+
+  // console.log({ user });
+
   return (
     <>
-      {/* <Message /> */}
-
-      {/* <Increments /> */}
-      {/* <Clock locale="bn-BD" />
-      <Increments />
-      <hr />
-      <Fruits />
-      <Hello name="Shanto" heroName="Superman">
-        <p>This is a Children Props</p>
-      </Hello>
-      <Hello name={"Pranto"} heroName={"Spiderman"}>
-        <button>Action</button>
-      </Hello>
-      <Hello name={"Asif"} heroName={"Captain America"}/> */}
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterThree /> */}
-      <HookCounterFour />
+      <Button text={12} />
     </>
   );
 }
