@@ -14,9 +14,9 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Examples:
 
 <h1>Parent->Child->Parent</h1>
-```
+``
 {
   "msgfromParent": "Hi Child! How are you?",
   "sendmsgtoParent": "handleChange() {}"
 }
-```
+``
