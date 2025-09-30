@@ -5,7 +5,7 @@ export default function Child({ msgfromParent, sendmsgtoParent }) {
     <div>
       <p>Message from Parent:{msgfromParent} </p>
       <button onClick={() => sendmsgtoParent("Hi, Parent I got your msg")}>
-        Reply to Parent
+        Reply to Parent from Child
       </button>
     </div>
   );
